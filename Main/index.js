@@ -3,7 +3,7 @@ const sort_btn = document.getElementById('sort-btn');
 const rst_btn = document.getElementById('rst-btn');
 const randomize_arr = document.getElementById('randomize-arr-btn');
 
-let arrLength = 100;
+let arrLength = 15;
 
 function randomUnsortedArray() {
     unsortedArr = Array.from({ length: arrLength }, () => Math.floor(Math.random() * 40));
@@ -62,4 +62,8 @@ randomize_arr.addEventListener('click', () => {
 sort_btn.addEventListener('click', () => {
     bubbleSort(unsortedArr);
     console.log(unsortedArr);
+})
+
+rst_btn.addEventListener('click', () => {
+    bars_container.innerHTML = "";
 })

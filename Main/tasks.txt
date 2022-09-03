@@ -1,0 +1,5 @@
+-> add speed
+-> add number of bars
+-> fix height
+-> add button to select interval of arr
+-> fix buttons
