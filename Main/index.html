@@ -12,8 +12,12 @@
     <div class="container" id="container">
         <div class="buttons-container">
             <button class="btns" id="randomize-arr-btn">New</button>
-            <button class="btns" id="sort-btn">Sort</button>
-            <button class="btns" id="rst-btn">Reset</button>
+            <button class="btns" id="sort-btn">Start</button>
+            <button class="btns" id="rst-btn" style="display: none;">Reset</button>
+        </div>
+        <div class="edit-container" id="edit-container">
+            <input type="range" min="10" max="50" value="25" class="slider" id="barsRange">
+            <input type="range" min="20" max="500" value="50" class="slider" id="speedRange">
         </div>
         <div class="bars-container" id="bars-container"></div>
     </div>
