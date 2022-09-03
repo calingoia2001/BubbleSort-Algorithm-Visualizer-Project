@@ -16,12 +16,12 @@
 .bars-container{
     display: flex;
     flex-direction: row;
-    margin-left: 26%;
+    margin-left: 0%;
     margin-top: 0.8%;
 }
 
 .bar {
-    width: 50px;
+    width: 20px;
     background-color: aqua;
     margin: 0 2px;
     border-radius: 2px;
@@ -47,12 +47,7 @@ body{
 }
 
 .btns {
-    /*
-    margin-left: 30px;
-    margin-top: 10px;
-    align-items: center;
-    font-size: 25px; */
-    margin-left: 8%;
+    margin-left: 35%;
     background-color: #c2fbd7;
     border-radius: 100px;
     box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
@@ -75,3 +70,65 @@ body{
   box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
+
+.edit-container {
+    /*display: table;*/
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 28%;
+    margin-left: 20%;
+    margin-top: 2px;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 15px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+ .rangeText {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+    word-spacing: 0.4px;
+    color: #04AA6D;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+ }
+
+ #rst-btn {
+    margin-left: 1835px;
+    margin-top: 15px;
+ }

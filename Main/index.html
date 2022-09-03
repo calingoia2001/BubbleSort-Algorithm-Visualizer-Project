@@ -9,15 +9,17 @@
     <title>Document</title>
 </head>
 <body>
+    <button class="btns" id="rst-btn">Reset</button>
     <div class="container" id="container">
         <div class="buttons-container">
             <button class="btns" id="randomize-arr-btn">New</button>
-            <button class="btns" id="sort-btn">Start</button>
-            <button class="btns" id="rst-btn" style="display: none;">Reset</button>
         </div>
         <div class="edit-container" id="edit-container">
-            <input type="range" min="10" max="50" value="25" class="slider" id="barsRange">
-            <input type="range" min="20" max="500" value="50" class="slider" id="speedRange">
+            <input type="range" min="10" max="90" value="25" class="slider" id="barsRange" style="display: none;"> <b  class="rangeText" id="barsText" style="display: none;">Bars Range</b>
+            <input type="range" min="10" max="500" value="50" class="slider" id="speedRange" style="display: none;"> <b class="rangeText" id="speedText" style="display: none;">Speed Range</b> 
+        </div>
+        <div class="buttons-container">
+            <button class="btns" id="sort-btn" style="display: none;">Start</button>
         </div>
         <div class="bars-container" id="bars-container"></div>
     </div>
