@@ -130,5 +130,9 @@ body{
 
  #rst-btn {
     margin-left: 1835px;
-    margin-top: 15px;
+ }
+
+ #home-btn {
+  margin-left: 2%;
+  margin-top: 1%;
  }

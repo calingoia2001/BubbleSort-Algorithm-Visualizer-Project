@@ -1,6 +1,7 @@
 const bars_container = document.getElementById('bars-container');
 const sort_btn = document.getElementById('sort-btn');
 const rst_btn = document.getElementById('rst-btn');
+const home_btn = document.getElementById('home-btn');
 const randomize_arr = document.getElementById('randomize-arr-btn');
 
 function randomUnsortedArray() {
@@ -94,4 +95,8 @@ sort_btn.addEventListener('click', () => {
 
 rst_btn.addEventListener('click', () => {
     bars_container.innerHTML = "";
+})
+
+home_btn.addEventListener('click', () => {
+    location.href = "../MainPage/Main.html";
 })
