@@ -9,10 +9,24 @@
     <title>Algoritm visualizer</title>
 </head>
 <body>
-    <button class="btns" id="bubblesort">Bubble Sort</button>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="animate-charcter">Algorithm Visualizer</h3>
+        </div>
+      </div>
+
+    <div class="buttons" style="margin: 0 auto; width: 200px; text-align: center;">
+        <button class="btns" id="bubblesort" data-inline="true">Bubble Sort</button>
+        <button class="btns" id="pathfinding" data-inline="true">PathFinding</button>
+    </div>
+    
     <script>
         document.getElementById('bubblesort').addEventListener('click', () => {
             location.href = "../BubbleSort/index.html";
+        });
+        document.getElementById('pathfinding').addEventListener('click', () => {
+            location.href = "../PathFinding/index.html";
         })
     </script>
 </body>

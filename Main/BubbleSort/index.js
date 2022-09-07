@@ -47,7 +47,7 @@ async function bubbleSort(array) {
     return array;
 }
 
-async function selectionSort(array) {
+/*async function selectionSort(array) {
     let bars = document.getElementsByClassName("bar");
     let speed = document.getElementById('speedRange').value;
     for(let i = 0 ; i < array.length; i++) {
@@ -75,7 +75,7 @@ async function selectionSort(array) {
         await sleep(speed);
     }
     return array;
-}
+}*/
 
 randomize_arr.addEventListener('click', () => {
     randomUnsortedArray();
@@ -90,7 +90,6 @@ randomize_arr.addEventListener('click', () => {
 
 sort_btn.addEventListener('click', () => {
     bubbleSort(unsortedArr);
-    //selectionSort(unsortedArr);
 })
 
 rst_btn.addEventListener('click', () => {
