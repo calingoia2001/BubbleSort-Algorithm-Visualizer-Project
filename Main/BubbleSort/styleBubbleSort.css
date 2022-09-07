@@ -16,7 +16,7 @@
 .bars-container{
     display: flex;
     flex-direction: row;
-    margin-left: 0%;
+    margin-left: 1%;
     margin-top: 0.8%;
 }
 
@@ -129,7 +129,8 @@ body{
  }
 
  #rst-btn {
-    margin-left: 1835px;
+    margin-left: 2%;
+
  }
 
  #home-btn {
