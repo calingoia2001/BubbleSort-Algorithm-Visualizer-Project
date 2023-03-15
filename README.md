@@ -1,3 +1,3 @@
-# Sorting-Visualizer-Main
+# This application presents the bubble sort algorithm in an interactive way
+The user can set the bar and speed range of the visualizer
 
-Sorting Algoritm with visualizer - Goia Calin
