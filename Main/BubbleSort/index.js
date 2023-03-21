@@ -47,35 +47,6 @@ async function bubbleSort(array) {
     return array;
 }
 
-/*async function selectionSort(array) {
-    let bars = document.getElementsByClassName("bar");
-    let speed = document.getElementById('speedRange').value;
-    for(let i = 0 ; i < array.length; i++) {
-        let min = i;
-        for(let j = i + 1; j < array.length; j++) {
-            if(array[j] < array[min]) {
-                min = j;
-            }
-        }
-        if(min != i) {
-            let temp = array[i];
-            array[i] = array[min];
-            array[min] = temp;
-
-            bars[i].style.height = (array[i] * 10 + 5) + "px";
-            bars[i].style.backgroundColor = "lightgreen";
-            bars[i].innerText = array[i];
-
-            bars[min].style.height = (array[min] * 10 + 5) + "px";
-            bars[min].style.backgroundColor = "lightgreen";
-            bars[min].innerText = array[min];
-            
-            await sleep(speed);
-        }
-        await sleep(speed);
-    }
-    return array;
-}*/
 
 randomize_arr.addEventListener('click', () => {
     randomUnsortedArray();
